@@ -31,3 +31,11 @@ console.log(deepEqual(obj, {here: 1, object: 2}));
 // → false
 console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
 // → true
+console.log(deepEqual(obj, {here: {is: "an"}, object: 0}));
+// → false
+console.log(deepEqual(obj, {here: {is: "another"}, object: 2}));
+// → false
+console.log(deepEqual(obj, {here: {isnt: "an"}, object: 2}));
+// → false
+console.log(deepEqual(obj, {here: {is: "an", deep: {poop: null, value: -1}}, object: 2}));
+// → false
