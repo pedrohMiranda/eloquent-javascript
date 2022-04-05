@@ -1,0 +1,5 @@
+https://eloquentjavascript.net/03_functions.html#i_XTmO7z7MPq
+
+The previous chapter introduced the standard function Math.min that returns its smallest argument.
+
+Write a function min that takes two arguments and returns their minimum.
